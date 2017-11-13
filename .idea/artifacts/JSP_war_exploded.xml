@@ -1,0 +1,33 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="JSP:war exploded">
+    <output-path>$PROJECT_DIR$/aipos5/target/JSP-1.0-SNAPSHOT</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="JSP" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: javax.servlet:javax.servlet-api:3.1.0" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-simple:1.5.5" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.5.5" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.31" />
+          <element id="library" level="project" name="Maven: com.googlecode.json-simple:json-simple:1.1.1" />
+          <element id="library" level="project" name="Maven: junit:junit:4.10" />
+          <element id="library" level="project" name="Maven: org.hamcrest:hamcrest-core:1.1" />
+          <element id="library" level="project" name="Maven: org.projectlombok:lombok:1.16.2" />
+          <element id="library" level="project" name="Maven: org.mockito:mockito-all:1.10.19" />
+          <element id="library" level="project" name="Maven: org.json:json:20160810" />
+          <element id="library" level="project" name="Maven: jstl:jstl:1.2" />
+          <element id="library" level="project" name="Maven: log4j:log4j:1.2.17" />
+          <element id="library" level="project" name="Maven: commons-httpclient:commons-httpclient:3.1" />
+          <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.0.4" />
+          <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.2" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/aipos5/target/JSP-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="JSP/web/Web" />
+    </root>
+  </artifact>
+</component>

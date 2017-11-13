@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="laba2aipos@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.0">
+    <root id="1"/>
+    <schema id="2" parent="1" name="laba2aipos">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="clients"/>
+    <schema id="4" parent="1" name="information_schema"/>
+    <schema id="5" parent="1" name="laba1"/>
+    <schema id="6" parent="1" name="laba2"/>
+    <schema id="7" parent="1" name="mysql"/>
+    <schema id="8" parent="1" name="performance_schema"/>
+    <schema id="9" parent="1" name="sys"/>
+    <table id="10" parent="2" name="student"/>
+    <column id="11" parent="10" name="id">
+      <Position>1</Position>
+      <DataType>int(10)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="12" parent="10" name="nameOfSudent">
+      <Position>2</Position>
+      <DataType>varchar(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="13" parent="10" name="surName">
+      <Position>3</Position>
+      <DataType>varchar(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="14" parent="10" name="secondName">
+      <Position>4</Position>
+      <DataType>varchar(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="15" parent="10" name="sex">
+      <Position>5</Position>
+      <DataType>enum(&apos;мужской&apos;, &apos;женский&apos;)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="16" parent="10" name="formOfTrainingenum">
+      <Position>6</Position>
+      <DataType>enum(&apos;платная&apos;, &apos;бесплатная&apos;)|0</DataType>
+    </column>
+    <column id="17" parent="10" name="groupNumber">
+      <Position>7</Position>
+      <DataType>enum(&apos;первая&apos;, &apos;вторая&apos;, &apos;третья&apos;)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="18" parent="10" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>

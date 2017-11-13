@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="laba2aipos@localhost" uuid="7bad5b89-a33b-4484-831d-f024f4cb8f69">
+      <database-info product="MySQL" version="5.7.15-log" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.40 ( Revision: 402933ef52cad9aa82624e80acbea46e3a701ce6 )">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <introspection-schemas>*:laba2aipos</introspection-schemas>
+      <resolve-scope>laba2aipos:</resolve-scope>
+      <unqualified-resolve-schemas>laba2aipos:</unqualified-resolve-schemas>
+    </data-source>
+  </component>
+</project>

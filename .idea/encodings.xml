@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/aipos5/src/main/java/interfaces/BookService.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/aipos5/src/main/java/model/Book.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/aipos5/src/main/java/mysql/ConstForSQL.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/aipos5/src/main/java/mysql/DBWorker.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/aipos5/src/main/java/mysql/MysqlOption.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/aipos5/src/main/java/servlet/AddServlet.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/aipos5/src/main/java/servlet/EditServlet.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/aipos5/src/main/java/servlet/RemoveServlet.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/aipos5/src/main/java/servlet/TableOfBookServlet.java" charset="windows-1251" />
+  </component>
+</project>
